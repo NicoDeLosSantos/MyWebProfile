@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="es">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title> Portfolio Nicolas DLS</title>
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/7.0.0/normalize.min.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.css" integrity="sha256-46qynGAkLSFpVbEBog43gvNhfrOj+BmwXdxFgVK/Kvc=" crossorigin="anonymous" />  
+        
+        <link href="https://fonts.googleapis.com/css?family=Source+Code+Pro:400,900|Source+Sans+Pro:300,900&display=swap" rel="stylesheet">
+
+        <link rel="stylesheet" href="css/style.css">
+
+    </head>
+    <body>
+        <header>
+            <div class="logo">
+            
+            </div>            
+            <button class="nav-toggle" aria-label="toggle navigation">
+                <span class="hamburger"></span>
+            </button>
+            <nav class="nav">
+                <ul class="nav__list">
+                    <li class="nav__item"><a href="#home" class="nav__link">Home</a></li>
+                    <li class="nav__item"><a href="#services" class="nav__link">Que hago</a></li>
+                    <li class="nav__item"><a href="#about" class="nav__link">Sobre mí</a></li>
+                    <li class="nav__item"><a href="#projects" class="nav__link">Mis Proyectos</a></li>
+                </ul>
+            </nav>
+        </header>
+
+        <!-- Introducción -->
+        <section class="intro" id="home">
+            <h1 class="section__title section__title--intro">
+                Hola, soy <strong>Nicolás De Los Santos</strong>
+            </h1>
+            <p class="section__subtitle section__subtitle--intro">TRADER & DATA ANALYST</p>
+            <img src="img/nico2.png" alt="a picture of me" class="intro__img">
+        </section>
+
+        <!-- Que hago -->
+        <section class="my-services" id="services">
+            <h2 class="section__title section__title--services">Que hago</h2>
+            <div class="services">
+                <div class="service">
+                    <h3>Inversor</h3>
+                    <p>Experiencia en mercados bursatiles y criptomonedas. Manejo capital propio pero tambien de familiares y conocidos.</p>
+                    <p></p>
+                </div>
+
+                <div class="service">
+                    <h3>Programador</h3>
+                    <p>Iniciando mi formacion en Data Science. Interesado en Data Analytics & Business Intelligence.
+                        Actualmente me encuentro en la busqueda de un nuevo proyecto, en un puesto trainee, donde pueda demostrar mis habilidades.
+                    </p>
+                </div> <!-- /services -->
+            </div>
+            <a href="#work" class="btn">Mi trabajo</a>
+            <a href="https://drive.google.com/file/d/18gCw2MVNN2yC8-vzWb_7RbU9Q9NiMRZL/view?usp=sharing" class="btn">Mi CV</a>
+            </button></a>
+        </section>
+
+        <!-- Sobre mí -->
+        <section class="about-me" id="about">
+            <h2 class="section__title section__title--about">Sobre mí</h2>
+            <p class="section__subtitle section__subtitle--about">Economista & Data Analyst</p>
+
+            <div class="about-me__body">
+                <p>Soy estudiante de Lic. en Economía en la UBA. Debido a mi pasión no solo por las finanzas sino, tambien, por la tecnologia,
+                    incursione en este amplio mundo de la programacion e inicie mis estudios de manera independiente y autodidacta.
+                    Estoy en constante capacitación de lenguajes y tecnologias como Python, SQL, Tableu y PowerBI.
+                </p>
+                <p>Mi meta es convertirme en un futuro profesional lo más completo posible, con habilidades más allá de la aplicación 
+                    práctica de los conocimientos que se adquieren en la carrera de Economista.</p>
+                </br>
+            </div>            
+            <p class="section__subtitle section__subtitle--work">Certificaciones</p>
+            <div></div>
+            <div>
+                <a href="https://drive.google.com/file/d/1HB6HeaNZ79wDZWwOrOedG7oZzoMVJMLr/view?usp=sharing" target="_blank">Analista Tecníco Financiero y Bursatil con Alcance Internacional - UTN.BA</a>
+                </br>
+                <a href="https://drive.google.com/file/d/1FBubQiPVlPEwp8HGYJkeP-VJ9mb_5OCi/view?usp=sharing" target="_blank">Python 3 Plus: Python desde cero + Data Analysis y Matplot</a>
+            </div>
+            
+            <img src="img/nico4.jpg" alt="sobre la muralla" class="about-me__img">
+        </section>
+
+        <!-- Mi portafolio-->
+        <section class="my-work" id="work">
+            <h2 class="section__title section__title--work">Proyectos</h2>
+            <p class="section__subtitle section__subtitle--work">Data Analyst</p>
+
+            <div class="portfolio">
+                <!-- Portfolio 01-->
+                <a href="https://github.com/NicoDeLosSantos/PortfolioProjectsDA/blob/main/COVIDQUERY.sql" class="portfolio__item">
+                    <img src="img/covid.jpg" alt="COVID" class="portfolio__img">
+                </a>
+
+            </div>
+            
+        </section>
+        <!-- Footer-->
+        <footer class="footer">
+            <a href="mailto:nicolas.dls94@gmail.com" class="footer-link">nicolas.dls94@gmail.com</a>
+            <ul class="social-list">
+                <li class="social-list__item">
+                    <a class="social-list__link" href="https://www.linkedin.com/in/nicodelossantos/">
+                        <i class="fab fa-linkedin"></i>
+                    </a>
+                </li>
+
+                <li class="social-list__item">
+                    <a class="social-list__link" href="https://twitter.com">
+                        <i class="fab fa-twitter"></i>
+                    </a>
+                </li>
+                <li class="social-list__item">
+                    <a class="social-list__link" href="https://github.com/NicoDeLosSantos">
+                        <i class="fab fa-github"></i>
+                    </a>
+                </li>
+            </ul>                        
+        </footer>
+
+        <script src="js/index.js"></script>
+
+    </body>
+</html>
